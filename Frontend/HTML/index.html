@@ -1,10 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Multimax Food Market</title>
+  <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
+<header>
+  <div class="left-section">
+    <div class="menu-icon">☰</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Пошук" id="search-input" />
+      <button id="search-btn">🔍</button>
+    </div>
+  </div>
+  <div class="right-section">
+    <button class="wholesale-btn">Оптовикам</button>
+    <div class="profile"></div>
+  </div>
+</header>
 
+<main>
+  <section class="promotions-section">
+    <h2>Акції</h2>
+    <div class="promotions">
+      <div class="promo-card">Акція 1</div>
+      <div class="promo-card">Акція 2</div>
+      <div class="arrow" id="promo-next">→</div>
+    </div>
+  </section>
+
+  <section class="products-section">
+    <h2>Популярні товари</h2>
+    <div class="products">
+      <div class="arrow" id="product-prev">←</div>
+      <div class="product-list" id="product-list">
+        <div class="product-card">
+          <div class="product-image"><img src="../IMG/apple.jpg" alt="Яблуко 'Селянське'"></div>
+          <div class="product-name">Яблуко "Селянське"</div>
+          <div class="product-price">47.99 грн/кг</div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">Вигляд товару</div>
+          <div class="product-name">Назва товару</div>
+          <div class="product-price">67.67 грн</div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">Вигляд товару</div>
+          <div class="product-name">Назва товару</div>
+          <div class="product-price">67.67 грн</div>
+        </div>
+      </div>
+      <div class="arrow" id="product-next">→</div>
+    </div>
+  </section>
+
+  <section class="map-section">
+    <h2>Де нас знайти?</h2>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.939014970403!2d30.5241366!3d50.4503596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce5f16d732d9%3A0x7f9abef83e7f7081!2sKhreshchatyk%20St%2C%20Kyiv!5e0!3m2!1sen!2sua!4v1699000000000!5m2!1sen!2sua"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+  </section>
+</main>
+  <script src="../JS/script.js">  </script>
 </body>
 </html>
