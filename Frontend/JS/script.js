@@ -1,5 +1,3 @@
-// THIS IS A PLACEHOLDER.
-
 // Search button click handler
 document.getElementById('search-btn').addEventListener('click', () => {
   const query = document.getElementById('search-input').value.trim();
