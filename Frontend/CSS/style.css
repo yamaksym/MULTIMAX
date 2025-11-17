@@ -180,7 +180,7 @@ h2 {
 
 /* Map section */
 .map-section h2 {
-    color: #fff;
+    color: #000000;
     background: none;
     font-weight: 500;
 }
@@ -200,32 +200,55 @@ iframe {
 
 /* Footer */
 footer {
-    background-color: #4f4f4f;
-    color: #fff;
-    padding: 15px;
+    background: #4F4F4F; /* dark gray like screenshot */
+    width: 100%;
+    padding: 20px 20px 30px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    color: #ffffffb0; /* slightly transparent white like screenshot */
+}
+
+.footer-title {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.footer-subtitle {
+    margin: 5px 0 0;
     font-size: 13px;
 }
 
-footer .footer-info {
-    margin-bottom: 10px;
-}
-
-footer .logo-footer {
-    width: 60px;
-    height: 60px;
-    margin-top: 10px;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    color: #4f4f4f;
-    font-weight: 700;
+.footer-text {
+    margin: 2px 0 6px;
+    font-size: 13px;
 }
 
 .footer-bottom {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 12px;
-    color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 70px; /* adjust to your actual image */
+    height: auto;
+}
+
+.footer-year {
+    font-size: 13px;
+    color: #ffffffb0;
 }
