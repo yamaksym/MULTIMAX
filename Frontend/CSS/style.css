@@ -10,7 +10,7 @@ body {
     color: #000;
 }
 
-/* Header */
+
 header {
     background-color: #4f4f4f;
     color: #fff;
@@ -91,7 +91,7 @@ header {
     background-color: #fff;
 }
 
-/* Main layout */
+
 main {
     padding: 15px;
 }
@@ -105,7 +105,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Promotions */
+
 .promotions {
     display: flex;
     align-items: center;
@@ -132,7 +132,7 @@ h2 {
     cursor: pointer;
 }
 
-/* Products */
+
 .products {
     display: flex;
     align-items: center;
@@ -178,7 +178,7 @@ h2 {
     color: #ccc;
 }
 
-/* Map section */
+
 .map-section h2 {
     color: #000000;
     background: none;
@@ -198,9 +198,9 @@ iframe {
     border: none;
 }
 
-/* Footer */
+
 footer {
-    background: #4F4F4F; /* dark gray like screenshot */
+    background: #4F4F4F;
     width: 100%;
     padding: 20px 20px 30px;
     color: white;
@@ -218,7 +218,7 @@ footer {
 .footer-right {
     display: flex;
     flex-direction: column;
-    color: #ffffffb0; /* slightly transparent white like screenshot */
+    color: #ffffffb0;
 }
 
 .footer-title {
@@ -244,7 +244,7 @@ footer {
 }
 
 .footer-logo {
-    width: 70px; /* adjust to your actual image */
+    width: 70px;
     height: auto;
 }
 

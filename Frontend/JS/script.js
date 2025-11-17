@@ -1,4 +1,3 @@
-// Search button click handler
 document.getElementById('search-btn').addEventListener('click', () => {
   const query = document.getElementById('search-input').value.trim();
   if (query) {
@@ -8,7 +7,6 @@ document.getElementById('search-btn').addEventListener('click', () => {
   }
 });
 
-// Product carousel scroll
 const productList = document.getElementById('product-list');
 document.getElementById('product-prev').addEventListener('click', () => {
   productList.scrollBy({ left: -100, behavior: 'smooth' });
