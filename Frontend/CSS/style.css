@@ -1,3 +1,13 @@
+:root {
+    --bg: #d9d9d9;
+    --header-promo-card-bg: #4f4f4f;
+    --wholesale-btn: #ff9933;
+    --whites: #fff;
+    --promo-card-grad-1: #6a6a6a;
+    --promo-card-grad-2: #444;
+    --footer-placeholder: #ffffffd0
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,14 +16,14 @@
 }
 
 body {
-    background-color: #d9d9d9;
+    background-color: var(--bg);
     color: #000;
 }
 
 
 header {
-    background-color: #4f4f4f;
-    color: #fff;
+    background-color: var(--header-promo-card-bg);
+    color: var(--whites);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,12 +41,12 @@ header {
     height: 40px;
     border-radius: 50%;
     overflow: hidden;
-    background: #fff;
+    background: var(--whites);
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    color: #4f4f4f;
+    color: var(--header-promo-card-bg);
 }
 
 .menu-icon {
@@ -47,7 +57,7 @@ header {
 .search-bar {
     display: flex;
     align-items: center;
-    background: #fff;
+    background: var(--whites);
     border-radius: 15px;
     padding: 4px 10px;
     flex: 1;
@@ -75,8 +85,8 @@ header {
 }
 
 .wholesale-btn {
-    background-color: #ff9933;
-    color: #fff;
+    background-color: var(--wholesale-btn);
+    color: var(--whites);
     border: none;
     padding: 6px 12px;
     border-radius: 12px;
@@ -88,7 +98,7 @@ header {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: var(--whites);
 }
 
 
@@ -114,10 +124,10 @@ h2 {
 
 .promo-card {
     flex: 1;
-    background: linear-gradient(180deg, #6a6a6a, #444);
+    background: linear-gradient(180deg, var(--promo-card-grad-1), var(--promo-card-grad-2));
     border-radius: 12px;
     height: 320px;
-    color: #fff;
+    color: var(--whites);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,8 +157,8 @@ h2 {
 }
 
 .product-card {
-    background: #4f4f4f;
-    color: #fff;
+    background: var(--header-promo-card-bg);
+    color: var(--whites);
     border-radius: 12px;
     padding: 8px;
     width: 300px;
@@ -157,7 +167,7 @@ h2 {
 }
 
 .product-image {
-    background: #d9d9d9;
+    background: var(--bg);
     border-radius: 8px;
     height: 225px;
     margin-bottom: 6px;
@@ -186,7 +196,7 @@ h2 {
 }
 
 .map-container {
-    background: #6a6a6a;
+    background: var(--promo-card-grad-1);
     border-radius: 12px;
     overflow: hidden;
     height: 500px;
@@ -200,7 +210,7 @@ iframe {
 
 
 footer {
-    background: #4F4F4F;
+    background: var(--header-promo-card-bg);
     width: 100%;
     padding: 20px 20px 30px;
     color: white;
@@ -218,7 +228,7 @@ footer {
 .footer-right {
     display: flex;
     flex-direction: column;
-    color: #ffffffb0;
+    color: var(--footer-placeholder);
 }
 
 .footer-title {
@@ -250,5 +260,5 @@ footer {
 
 .footer-year {
     font-size: 13px;
-    color: #ffffffb0;
+    color: var(--footer-placeholder);
 }
