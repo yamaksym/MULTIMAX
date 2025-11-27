@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Multimax Food Market</title>
-  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="../CSS/style_index.css">
 </head>
 <body>
 <header>
   <div class="left-section">
     <div class="menu-icon">☰</div>
     <div class="search-bar">
-      <input type="text" placeholder="Я шукаю..." id="search-input" />
+      <label for="search-input"></label><input type="text" placeholder="Я шукаю..." id="search-input" />
       <button id="search-btn">🔍</button>
     </div>
   </div>
@@ -36,22 +36,22 @@
       <div class="arrow" id="product-prev">←</div>
       <div class="product-list" id="product-list">
         <div class="product-card">
-          <div class="product-image"><img src="../IMG/apple.jpg" alt="Яблуко 'Селянське'"></div>
+          <div class="product-image"><a href="apple.html"><img src="../IMG/apple.png" alt="Яблуко 'Селянське'"></a></div>
           <div class="product-name">Яблуко "Селянське"</div>
           <div class="product-price">47.99 грн/кг</div>
         </div>
         <div class="product-card">
-          <div class="product-image"><img src="../IMG/Chips.jpg" alt="Чипси Lay's зі смаком крабу"></div>
+          <div class="product-image"><a href="chips.html"><img src="../IMG/chips.png" alt="Чипси Lay's зі смаком крабу"></a></div>
           <div class="product-name">Чипси Lay's зі смаком крабу</div>
           <div class="product-price">69.69 грн</div>
         </div>
         <div class="product-card">
-          <div class="product-image"><img src="../IMG/coca_cola_zero.jpg" alt="Напій безалкогольний без цукру 'Coca-Cola Zero'"></div>
+          <div class="product-image"><a href="coca_cola_zero.html"><img src="../IMG/coca_cola_zero.png" alt="Напій безалкогольний без цукру 'Coca-Cola Zero'"></a></div>
           <div class="product-name">Напій безалкогольний без цукру 'Coca-Cola Zero' з підсолоджувачами</div>
           <div class="product-price">27.20 грн</div>
         </div>
         <div class="product-card">
-          <div class="product-image"><img src="../IMG/ice_cream_chreschatyk.jpg" alt="Морозиво 90г 'Хрещатик'"></div>
+          <div class="product-image"><a href="ice_cream_chreschatyk.html"><img src="../IMG/ice_cream_chreschatyk.png" alt="Морозиво 90г 'Хрещатик'"></a></div>
           <div class="product-name">Морозиво 90г 'Хрещатик'</div>
           <div class="product-price">26.90 грн</div>
         </div>
@@ -94,6 +94,6 @@
     <div class="footer-year">2025. Усі права захищені.</div>
   </div>
 </footer>
-  <script src="../JS/script.js">  </script>
+  <script src="../JS/script_index.js">  </script>
 </body>
 </html>
