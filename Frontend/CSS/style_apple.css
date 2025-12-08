@@ -5,7 +5,8 @@
     --whites: #fff;
     --promo-card-grad-1: #6a6a6a;
     --promo-card-grad-2: #444;
-    --footer-placeholder: #ffffffd0
+    --footer-placeholder: #ffffffd0;
+    --blacks: #000000;
 }
 
 * {
@@ -17,7 +18,7 @@
 
 body {
     background-color: var(--bg);
-    color: #000;
+    color: var(--blacks);
 }
 
 
@@ -61,7 +62,7 @@ header {
     border-radius: 15px;
     padding: 4px 10px;
     flex: 1;
-    max-width: 180px;
+    max-width: 200px;
 }
 
 .search-bar input {
@@ -116,56 +117,6 @@ h2 {
 }
 
 
-.promotions {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.promo-card {
-    flex: 1;
-    background: linear-gradient(180deg, var(--promo-card-grad-1), var(--promo-card-grad-2));
-    border-radius: 12px;
-    height: 320px;
-    color: var(--whites);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.arrow {
-    font-size: 22px;
-    font-weight: 700;
-    color: #000;
-    cursor: pointer;
-}
-
-
-.products {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.product-list {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    overflow-x: auto;
-}
-
-.product-card {
-    background: var(--header-promo-card-bg);
-    color: var(--whites);
-    border-radius: 12px;
-    padding: 8px;
-    width: 300px;
-    flex-shrink: 0;
-    text-align: center;
-}
-
 .product-image {
     background: var(--bg);
     border-radius: 8px;
@@ -174,7 +125,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000;
+    color: var(--blacks);
     font-size: 12px;
 }
 
@@ -185,12 +136,12 @@ h2 {
 
 .product-price {
     font-size: 12px;
-    color: #ccc;
+    color: var(--blacks);
 }
 
 
 .map-section h2 {
-    color: #000000;
+    color: var(--blacks);
     background: none;
     font-weight: 750;
 }
@@ -216,7 +167,21 @@ footer {
     color: white;
     font-family: Arial, sans-serif;
 }
-
+a:link {
+    color: white;
+    background: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: floralwhite;
+    background: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: antiquewhite;
+    background: transparent;
+    text-decoration: none;
+}
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -229,6 +194,7 @@ footer {
     display: flex;
     flex-direction: column;
     color: var(--footer-placeholder);
+    text-decoration-color: var(--whites);
 }
 
 .footer-title {

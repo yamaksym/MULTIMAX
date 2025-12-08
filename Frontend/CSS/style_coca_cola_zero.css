@@ -5,7 +5,8 @@
     --whites: #fff;
     --promo-card-grad-1: #6a6a6a;
     --promo-card-grad-2: #444;
-    --footer-placeholder: #ffffffd0
+    --footer-placeholder: #ffffffd0;
+    --blacks: #000000;
 }
 
 * {
@@ -17,7 +18,7 @@
 
 body {
     background-color: var(--bg);
-    color: #000;
+    color: var(--blacks);
 }
 
 
@@ -61,7 +62,7 @@ header {
     border-radius: 15px;
     padding: 4px 10px;
     flex: 1;
-    max-width: 180px;
+    max-width: 200px;
 }
 
 .search-bar input {
@@ -138,7 +139,7 @@ h2 {
 .arrow {
     font-size: 22px;
     font-weight: 700;
-    color: #000;
+    color: var(--blacks);
     cursor: pointer;
 }
 
@@ -174,7 +175,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000;
+    color: var(--blacks);
     font-size: 12px;
 }
 
@@ -190,7 +191,7 @@ h2 {
 
 
 .map-section h2 {
-    color: #000000;
+    color: var(--blacks);
     background: none;
     font-weight: 750;
 }
@@ -229,6 +230,22 @@ footer {
     display: flex;
     flex-direction: column;
     color: var(--footer-placeholder);
+}
+
+a:link {
+    color: white;
+    background: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: floralwhite;
+    background: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: antiquewhite;
+    background: transparent;
+    text-decoration: none;
 }
 
 .footer-title {
