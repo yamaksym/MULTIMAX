@@ -1,7 +1,6 @@
 :root {
     --bg: #d9d9d9;
     --header-promo-card-bg: #4f4f4f;
-    --wholesale-btn: #ff9933;
     --whites: #fff;
     --promo-card-grad-1: #6a6a6a;
     --promo-card-grad-2: #444;
@@ -83,16 +82,6 @@ header {
     display: flex;
     align-items: center;
     gap: 8px;
-}
-
-.wholesale-btn {
-    background-color: var(--wholesale-btn);
-    color: var(--whites);
-    border: none;
-    padding: 6px 12px;
-    border-radius: 12px;
-    font-weight: 600;
-    cursor: pointer;
 }
 
 .profile {
