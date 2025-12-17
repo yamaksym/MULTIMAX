@@ -111,6 +111,7 @@ h2 {
     background: var(--bg);
     border-radius: 8px;
     height: 225px;
+    width: 225px;
     margin-bottom: 6px;
     display: flex;
     align-items: center;
@@ -122,6 +123,8 @@ h2 {
 .product-name {
     font-size: 26px;
     margin-bottom: 4px;
+    margin-right: 10px;
+    width: 350px;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -131,18 +134,23 @@ h2 {
     font-size: 12px;
     color: var(--blacks);
     display: flex;
+    width: 350px;
+    margin-right: 10px;
     align-items: center;
     justify-content: right;
     margin-bottom: 10px;
     font-weight: bold
 }
 
-.product-buy button {
+#product-buy {
     background: var(--buy-button);
     border: none;
     cursor: pointer;
     color: #fff;
     font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 
