@@ -137,14 +137,16 @@ h2 {
     font-weight: bold
 }
 
-.product-buy button {
+#product-buy {
     background: var(--buy-button);
     border: none;
     cursor: pointer;
     color: #fff;
     font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
-
 
 footer {
     background: var(--header-promo-card-bg);
