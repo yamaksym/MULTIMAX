@@ -172,7 +172,6 @@ h2 {
     font-size: 16px;
     color: var(--blacks);
     display: flex;
-    width: 350px;
     align-items: center;
     justify-content: center;
     margin-bottom: 10 px;
