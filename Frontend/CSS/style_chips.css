@@ -96,6 +96,11 @@ header {
 
 main {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
 section {
@@ -112,6 +117,7 @@ h2 {
     background: var(--bg);
     border-radius: 8px;
     height: 225px;
+    width: 225px;
     margin-bottom: 6px;
     display: flex;
     align-items: center;
@@ -120,9 +126,18 @@ h2 {
     font-size: 12px;
 }
 
+.product-details {
+    background: none;
+    width: 350px;
+    display: flexbox;
+    justify-content: right;
+}
+
 .product-name {
-    font-size: 13px;
+    font-size: 24px;
     margin-bottom: 4px;
+    margin-right: 10px;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -131,6 +146,9 @@ h2 {
     font-size: 12px;
     color: var(--blacks);
     display: flex;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
     align-items: center;
     justify-content: right;
     margin-bottom: 10px;
@@ -141,7 +159,9 @@ h2 {
     background: var(--buy-button);
     border: none;
     cursor: pointer;
+    margin-right: 10px;
     color: #fff;
+    width: 65px;
     font-size: 12px;
     display: flex;
     align-items: center;
